@@ -1,0 +1,30 @@
+{
+  "bitcoreNode": {
+    "services": {
+      "api": {
+        "wallets": {
+          "allowCreationBeforeCompleteSync": true
+        }
+      }
+    },
+    "chains": {
+      "GUAP": {
+        "regtest": {
+          "chainSource": "p2p",
+          "trustedPeers": [
+            {
+              "host": "155.138.165.182",
+              "port": 9633
+            }
+          ],
+          "rpc": {
+            "host": "155.138.165.182",
+            "port": 9634,
+            "username": "MmKfybbJwuYc",
+            "password": "DxSovb0FTCLq7NYRpYdGr7XeKi5y2tWd"
+          }
+        }
+      }
+    }
+  }
+}
